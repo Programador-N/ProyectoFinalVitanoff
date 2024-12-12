@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url('background.png') no-repeat center center fixed;
+  background-size: cover;
+  animation: backgroundZoom 15s ease infinite;
+}
+
+@keyframes backgroundZoom {
+  0% {
+    background-size: 100%;
+  }
+  50% {
+    background-size: 110%; /* Zoom */
+  }
+  100% {
+    background-size: 100%;
+  }
+}
